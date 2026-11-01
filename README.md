@@ -3,7 +3,6 @@
 Homebrew tap for apps by vuhpquang.
 
 ```bash
-brew trust vuhpquang/tap                    # Homebrew 7+ only loads casks from trusted taps
 brew install --cask vuhpquang/tap/padlet
 ```
 
@@ -11,6 +10,6 @@ brew install --cask vuhpquang/tap/padlet
 |---|---|
 | `padlet` | [Padlet](https://github.com/vuhpquang/padlet) — trackpad edge controls and extra gestures for the macOS menu bar |
 
-Use the full name `vuhpquang/tap/padlet`: Homebrew's main repository has an unrelated `padlet` cask.
+Use the full name `vuhpquang/tap/padlet`. It also tells Homebrew to trust this cask (Homebrew won't load anything from a third-party tap you haven't trusted), and Homebrew's main repository has an unrelated `padlet` cask.
 
 Casks here are updated by each app's release script; don't edit them by hand.
