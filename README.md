@@ -3,6 +3,7 @@
 Homebrew tap for apps by vuhpquang.
 
 ```bash
+brew trust vuhpquang/tap                    # Homebrew 7+ only loads casks from trusted taps
 brew install --cask vuhpquang/tap/padlet
 ```
 
