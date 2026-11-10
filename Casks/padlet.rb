@@ -1,7 +1,7 @@
 # Generated from packaging/homebrew/padlet.rb in vuhpquang/padlet — edit it there.
 cask "padlet" do
-  version "2.3.4"
-  sha256 "d674a3b71bfff24a3801f68369796dc2d7ff5ac4233f4710160a5b3fb2f77709"
+  version "2.3.6"
+  sha256 "e0c3acdc43a7447bd35502b4dcdb21b5bf7c60ff84e9315be04efc9f55380a7e"
 
   url "https://github.com/vuhpquang/padlet/releases/download/v#{version}/Padlet.dmg"
   name "Padlet"
